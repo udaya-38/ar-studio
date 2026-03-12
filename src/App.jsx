@@ -573,7 +573,6 @@ function PipelinePage({ navigate }) {
       </div>
 
       <div style={{ maxWidth:1200,margin:"0 auto",padding:"0 44px 60px" }}>
-        {/* Steps */}
         <div style={{ display:"flex",alignItems:"flex-start",gap:0,marginBottom:40,overflowX:"auto",padding:"20px 0" }}>
           {PIPE.map((p,i)=>(
             <div key={i} style={{ display:"flex",alignItems:"center",flex:i<PIPE.length-1?1:0,minWidth:110 }}>
@@ -600,7 +599,6 @@ function PipelinePage({ navigate }) {
           </div>
         )}
 
-        {/* Tech + Code */}
         <div style={{ display:"grid",gridTemplateColumns:"1fr 1fr",gap:20,marginBottom:60 }}>
           <div style={{ background:C.card,border:`1px solid ${C.border}`,borderRadius:18,padding:"28px 26px" }}>
             <div style={{ color:C.primary,fontSize:11,fontWeight:600,letterSpacing:2,textTransform:"uppercase",marginBottom:18 }}>Technology Stack</div>
@@ -694,7 +692,6 @@ function PricingPage({ navigate }) {
         ))}
       </div>
 
-      {/* FAQ */}
       <div style={{ background:`rgba(99,102,241,.04)`,borderTop:`1px solid ${C.border}`,borderBottom:`1px solid ${C.border}`,padding:"60px 44px" }}>
         <div style={{ maxWidth:900,margin:"0 auto" }}>
           <h2 style={{ fontSize:30,fontWeight:800,textAlign:"center",marginBottom:36,letterSpacing:-1 }}>Frequently Asked</h2>
